@@ -19,10 +19,6 @@
     margin: 20px 30px 10px 0;
 }
 
-.middleButton{
-    margin: 0 5px;
-}
-
 .outPutButtons{
     font-family: 'Open Sans';
     width: 45px;
@@ -42,7 +38,8 @@
     width: 70px;
     cursor: pointer;
     border: none;
-    background-color: white;
+    background-color: #808080;
+    color: #ffffff;
 }
 
 .headerImages{
@@ -51,14 +48,13 @@
 }
 
 .rightButtons{
-    margin-right: 20px;
+    margin-right: 10px;
     display: flex;
 }
 
 .leftButtons{
     display: flex;
     background-color: white;
-    margin-left: 10px;
 }
 
 .outPutsDiv{
@@ -72,14 +68,14 @@
 }
 
 input{
-    padding: 5px 5px 5px 30px;
-    text-align: right;
+    padding: 5px 30px 5px 5px;
+    text-align: left;
     background-image: url(./assets/magnifying-glass-solid.svg);
     background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: left 10px top 4px;
-    border:none;
-    border-radius: 10px
+    background-size: 15px;
+    background-position: left 172px top 5px;
+    border: none;
+    border-radius: 10px;
 }
 
 .buttons:hover{
@@ -91,4 +87,5 @@ input{
     height: 25px;
     border-radius: 10px;
     background-color: white;
+    margin-left: -10px;
 }
