@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
+        <title> ERPGE </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <div class="leftButtons">
+                    <form class="outPutsDiv">
+                        <button class="outPutButtons" type="button" @onclick="" ><img class="headerImages" src="./assets/circle-question-solid.svg" alt="infoIcon"/></button>
+                        <output class="outPut" name="x" for="a b"></output>
+                    </form>
+                    <form class="outPutsDiv">
+                        <button class="outPutButtons middleButton" type="button" @onclick="" ><img class="headerImages" src="./assets/bug-solid.svg" alt="infoIcon"/></button>
+                        <output class="outPut" name="x" for="a b"></output>
+                    </form>
+                    <form class="outPutsDiv">
+                        <button class="outPutButtons" type="button" @onclick="" ><img class="headerImages" src="./assets/circle-exclamation-solid.svg" alt="infoIcon"/></button>
+                        <output class="outPut" name="x" for="a b"></output>
+                    </form>
+                </div> 
+                <div class="rightButtons" >
+                    <input  type="text" name="type-text"  @onclick="" placeholder="search"></input>
+                    <button class="buttons" type="button" @onclick="HandleClickClear" style="margin-left: 5px; margin-right:5px;">Clear</button>
+                    <button class="buttons" type="button" @onclick="HandleClickShow">Show</button>
+                </div>
+            </div>   
+            <!-- <div style="height: @(_height.ToString())px; overflow-y: auto; display: @(_show ? 'block' : 'none')">
+                @if (_messages != null)
+                {
+                    @foreach (var item in _messages)
+                    {
+                        <p>@item</p>
+                    }
+                } -->
+            </div>
+        </div> 
+    </body>
+</html>
