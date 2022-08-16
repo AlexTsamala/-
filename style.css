@@ -9,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    padding:1px;
     background-color: #FFE5CC;
+    padding: 3px;
 }
 
 .bottomButtons{
@@ -40,10 +40,6 @@
     border: none;
     background-color: #808080;
     color: #ffffff;
-}
-
-.addPointer{
-    cursor: pointer;
 }
 
 .headerImages{
@@ -92,4 +88,14 @@ input{
     border-radius: 10px;
     background-color: white;
     margin-left: -10px;
+}
+
+/* .paragraphs{
+    font-size: 10px;
+} */
+
+.scroll-div{
+    background-color: red;
+    height:15px;
+    cursor: n-resize;
 }

@@ -1,25 +1,25 @@
 const header = document.getElementById("header");
+const scrollSection = document.getElementById("scrollSection")
 let yCoordinate ;
 let clicked = 0;
 
 function getCoordinate (target){
     yCoordinate = target.y;
-    header.style.marginTop = yCoordinate+'px'
-    
+    scrollSection.style.marginTop = yCoordinate+'px'
 }
 
 
 
-header.addEventListener("mousedown", (event)=>{
-    if(event.target===header){
+scrollSection.addEventListener("mousedown", (event)=>{
+    
         window.addEventListener("mousemove",getCoordinate);
-        header.classList.add("addPointer");
-    }
+        
+    
 })
 
-header.addEventListener("mouseup", (event)=>{
+scrollSection.addEventListener("mouseup", (event)=>{
     window.removeEventListener("mousemove",getCoordinate)
-    header.classList.remove("addPointer");
+    
 })
 
 
