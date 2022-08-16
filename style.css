@@ -96,6 +96,6 @@ input{
 
 .scroll-div{
     background-color: red;
-    height:15px;
+    height: 6px;
     cursor: n-resize;
 }
