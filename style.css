@@ -42,6 +42,10 @@
     color: #ffffff;
 }
 
+.addPointer{
+    cursor: pointer;
+}
+
 .headerImages{
     width: 18px;
     height: 18px;

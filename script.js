@@ -12,12 +12,14 @@ function getCoordinate (target){
 
 header.addEventListener("mousedown", (event)=>{
     if(event.target===header){
-        window.addEventListener("mousemove",getCoordinate)
+        window.addEventListener("mousemove",getCoordinate);
+        header.classList.add("addPointer");
     }
 })
 
 header.addEventListener("mouseup", (event)=>{
     window.removeEventListener("mousemove",getCoordinate)
+    header.classList.remove("addPointer");
 })
 
 
