@@ -6,8 +6,6 @@ const screenSize = document.getElementById("main-window").scrollHeight
 
  
 
-
-
 function getCoordinate (target){
     let yCoordinate = target.y;
     if(yCoordinate<=screenSize-header.offsetHeight-5&&yCoordinate>=0){
@@ -20,8 +18,6 @@ function getCoordinate (target){
    
 }
 
-
-
 scrollSection.addEventListener("mousedown", (event)=>{
     window.addEventListener("mousemove",getCoordinate);
 })
@@ -29,8 +25,4 @@ scrollSection.addEventListener("mousedown", (event)=>{
 scrollSection.addEventListener("mouseup", (event)=>{
     window.removeEventListener("mousemove",getCoordinate)
 })
-
-
-
-
 
