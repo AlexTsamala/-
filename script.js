@@ -12,7 +12,6 @@ function getCoordinate (target){
         scrollSection.style.marginTop = yCoordinate+'px';
         let paragraphWidth =screenSize-30-yCoordinate-header.offsetHeight;
         textSection.style.height = (paragraphWidth)+"px";
-        console.log(yCoordinate<=screenSize-header.offsetHeight-5&&yCoordinate>=0)
     }
     
    
