@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="main-window">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -7,8 +7,8 @@
         <title> ERPGE </title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <div>
+    <body id="body">
+        <div class="main-container">
             <div class="scroll-div" id="scrollSection"></div>
             <div class="header" id="header">
                 <div class="leftButtons">
@@ -31,7 +31,7 @@
                     <button class="buttons" type="button" @onclick="HandleClickShow">Show</button>
                 </div>
             </div>
-            <div class="paragraphs">
+            <div class="paragraphs" id="textSection">
                 <p>emplate literals are literals delimited with backtick (`) characters, allowing for multi-line strings, 
                 for string interpolation with embedded expressions, and for special constructs called tagged templates.</p>
                 <p>emplate literals are literals delimited with backtick (`) characters, allowing for multi-line strings, 

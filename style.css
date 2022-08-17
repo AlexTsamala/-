@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.main-container{
+    overflow-y: hidden;
+    max-height: 100vh;
+}
 
 .header{
     display: flex;
@@ -90,12 +94,12 @@ input{
     margin-left: -10px;
 }
 
-/* .paragraphs{
-    font-size: 10px;
-} */
-
 .scroll-div{
     background-color: red;
     height: 6px;
     cursor: n-resize;
+}
+
+.paragraphs{
+    overflow-y: auto;
 }
